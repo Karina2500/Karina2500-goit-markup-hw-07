@@ -2,16 +2,15 @@
 @import "./base/visually-hidden";
 
 
-@import "./utils/buttons";
-@import "./utils/placeholder";
 @import "./utils/variables";
 
 
-@import "./components/actives-team-client";
-@import "./components/benefits";
-@import "./components/body";
-@import "./components/footer";
-@import "./components/form";
-@import "./components/header";
-@import "./components/portfolio-button";
-@import "./components/portfolio";
+@import "./component/logo";
+@import "./component/hero";
+@import "./component/benefits";
+@import "./component/experience";
+@import "./component/team";
+@import "./component/client";
+@import "./component/footer";
+@import "./component/header";
+
