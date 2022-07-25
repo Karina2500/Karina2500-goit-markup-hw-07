@@ -1,0 +1,113 @@
+.header {
+    border: 1px solid #ECECEC;
+}
+
+.header__inner {
+    display: flex;
+    align-items: center;
+}
+
+
+.header__logo-color {
+    color: var(--accent-text-color);
+}
+
+.header__logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #000;
+}
+
+
+.header__list {
+    display: flex;
+    margin-left: 93px;
+}
+
+.header__list:last-child {
+    margin-right: 0;
+}
+
+.header__list .link.current {
+    color: var(--accent-text-color);
+}
+
+.header__item {
+    position: relative;
+    display: flex;
+    margin-right: 50px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    text-decoration: none;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+
+    transition: background-color, color, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.site__link:hover,
+.site__link:focus {
+    color: var(--accent-text-color);
+}
+
+.site__link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.contact__nav {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+
+.contact__nav .contact__item+.contact__item {
+    margin-left: 50px;
+}
+
+.contact__link {
+    display: flex;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--secondary-text-color);
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contact__link:focus,
+.contact__link:hover {
+    color: var(--accent-text-color);
+}
+
+.contact__link {
+    display: flex;
+    align-items: center;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1)
+}
+
+.contact__icon {
+    width: 16px;
+    height: 16px;
+    fill: currentColor;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.contact__icon {
+    width: 16px;
+    height: 16px;
+    fill: currentColor;
+    margin-right: 10px;
+    cursor: pointer;
+}

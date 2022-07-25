@@ -1,0 +1,24 @@
+.btn-list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.btn-list .item+.item {
+    margin-left: 8px;
+}
+
+.item:hover,
+.item:focus {
+    box-shadow:
+        0px 1px 1px rgb(0 0 0 / 12%),
+        0px 4px 4px rgb(0 0 0 / 6%),
+        1px 4px 6px rgb(0 0 0 / 16%);
+    cursor: pointer;
+}
+
+
+.btn__item.active {
+    background-color: var(--accent-text-color);
+    color: var(--background-color);
+}

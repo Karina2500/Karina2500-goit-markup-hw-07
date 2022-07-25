@@ -1,0 +1,19 @@
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.section {
+    padding: 94px 0;
+}
+
+.main__title {
+    font-size: 36px;
+    line-height: 1.14;
+    color: var(--primary-text-color);
+    text-align: center;
+    margin-bottom: 50px;
+}
