@@ -23,10 +23,10 @@
                 <a href="index.html" class="header__logo link"><span class="header__logo--accent">Web</span>Studio</a>
                 <ul class="header__list list">
                     <li class="header__item">
-                        <a href="./index.html" class="header__link menu-link link current">Студия</a>
+                        <a href="./index.html" class="header__link menu-link link ">Студия</a>
                     </li>
                     <li class="header__item">
-                        <a href="./portfolio.html" class="header__link menu-link link">Портфолио</a>
+                        <a href="./portfolio.html" class="header__link menu-link current link">Портфолио</a>
                     </li>
                     <li class="header__item">
                         <a href="./index.html" class="header__link menu-link link">Контакты</a>
@@ -57,198 +57,182 @@
         <section class="section-portfolio">
             <div class="portfolio__container container">
                 <h1 class="visually-hidden">Список радиокнопок</h1>
-                <ul class="radio__list">
-                    <li class="radio__item">
-                        <button class="radio__button" type="button">Все</button>
+                <ul class="control__btn">
+                    <li class="control__item">
+                        <button class="control__button" type="button">Все</button>
                     </li>
-                    <li class="radio__item">
+                    <li class="control__item">
                         <button class="control__button" type="button">Веб-сайты</button>
                     </li>
-                    <li class="radio__item">
+                    <li class="control__item">
                         <button class="control__button" type="button">Приложения</button>
                     </li>
-                    <li class="radio__item">
+                    <li class="control__item">
                         <button class="control__button" type="button">Дизайн</button>
                     </li>
-                    <li class="control__radio-item">
+                    <li class="control__item">
                         <button class="control__button" type="button">Маркетинг</button>
                     </li>
                 </ul>
-                <ul class="portfolio-list">
-                    <li class="photo-portfolio">
-                        <a href="/" class="project link">
-                            <div class="prodact-thumb">
-                                <img src="./images/portfolio/img.jpg" alt="Технокряк" width="370">
-                                <div class="product-action">
-                                    <p class="portfolio-text-action">
+                <ul class="gallery">
+                    <li class="gallery__item">
+                        <a href="/" class="gallery__link">
+                            <div class="gallery__overlay">
+                                <img class="gallery__img" src="./images/portfolio/img.jpg" alt="Технокряк" width="370">
+                                    <p class="gallery__text">
                                         Ресурс предлагает комплексные предложения с разным уровнем функционала и
                                         сервисов.
                                         Все это позволит посетителю получить
                                         исчерпывающие сведения о компании или частном лице.
                                     </p>
-                                </div>
                             </div>
-                            <div class="photo-border">
-                                <h2 class="portfolio-text">Технокряк</h2>
-                                <p class="portfolio-item">Веб-сайт</p>
+                            <div class="gallery__card">
+                                <h2 class="gallery__name">Технокряк</h2>
+                                <p class="gallery__text-card">Веб-сайт</p>
                             </div>
                         </a>
                     </li>
-                    <li class="photo-portfolio">
-                        <a href="/" class="project link">
-                            <div class="prodact-thumb">
-                                <img src="./images/portfolio/img2.jpg" alt="Постер New Orlean vs Golden Star"
-                                    width="370">
-                                <div class="product-action">
-                                    <p class="portfolio-text-action">
+                    <li class="gallery__item">
+                        <a href="/" class="gallery__link">
+                            <div class="gallery__overlay">
+                                <img class="gallery__img" src="./images/portfolio/img2.jpg" alt="Постер New Orlean vs                              <div class="product-action">
+                                    <p class="gallery__text">
                                         Ресурс предлагает комплексные предложения с разным уровнем функционала и
                                         сервисов.
                                         Все это позволит посетителю получить
                                         исчерпывающие сведения о компании или частном лице.
                                     </p>
-                                </div>
                             </div>
-                            <div class="photo-border">
-                                <h2 class="portfolio-text">Постер New Orlean vs Golden Star</h2>
-                                <p class="portfolio-item">Дизайн</p>
+                            <div class="gallery__card">
+                                <h2 class="gallery__name">Постер New Orlean vs Golden Star</h2>
+                                <p class="gallery__text-card">Дизайн</p>
                             </div>
                         </a>
                     </li>
-                    <li class="photo-portfolio">
-                        <a href="/" class="project link">
-                            <div class="prodact-thumb">
-                                <img src="./images/portfolio/img3.jpg" alt="Ресторан Seafood" width="370">
-                                <div class="product-action">
-                                    <p class="portfolio-text-action">
+                    <li class="gallery__item">
+                        <a href="/" class="gallery__link">
+                            <div class="gallery__overlay">
+                                <img class="gallery__img" src="./images/portfolio/img3.jpg" alt="Ресторан Seafood" width="370">
+                                    <p class="gallery__text">
                                         Ресурс предлагает комплексные предложения с разным уровнем функционала и
                                         сервисов.
                                         Все это позволит посетителю получить
                                         исчерпывающие сведения о компании или частном лице.
                                     </p>
-                                </div>
                             </div>
-                            <div class="photo-border">
-                                <h2 class="portfolio-text">Ресторан Seafood</h2>
-                                <p class="portfolio-item">Приложение</p>
+                            <div class="gallery__card">
+                                <h2 class="gallery__name">Ресторан Seafood</h2>
+                                <p class="gallery__text-card">Приложение</p>
                             </div>
                         </a>
                     </li>
-                    <li class="photo-portfolio">
-                        <a href="/" class="project link">
-                            <div class="prodact-thumb">
-                                <img src="./images/portfolio/img4.jpg" alt="Проект Prime" width="370">
-                                <div class="product-action">
-                                    <p class="portfolio-text-action">
+                    <li class="gallery__item">
+                        <a href="/" class="gallery__link">
+                            <div class="gallery__overlay">
+                                <img class="gallery__img" src="./images/portfolio/img4.jpg" alt="Проект Prime" width="370">
+                                    <p class="gallery__text">
                                         Ресурс предлагает комплексные предложения с разным уровнем функционала и
                                         сервисов.
                                         Все это позволит посетителю получить
                                         исчерпывающие сведения о компании или частном лице.
                                     </p>
-                                </div>
                             </div>
-                            <div class="photo-border">
-                                <h2 class="portfolio-text">Проект Prime</h2>
-                                <p class="portfolio-item">Маркетинг</p>
+                            <div class="gallery__card">
+                                <h2 class="gallery__name">Проект Prime</h2>
+                                <p class="gallery__text-card">Маркетинг</p>
                             </div>
                         </a>
                     </li>
-                    <li class="photo-portfolio">
-                        <a href="/" class="project link">
-                            <div class="prodact-thumb">
-                                <img src="./images/portfolio/img5.jpg" alt="Проект Boxes" width="370">
-                                <div class="product-action">
-                                    <p class="portfolio-text-action">
+                    <li class="gallery__item">
+                        <a href="/" class="gallery__link">
+                            <div class="gallery__overlay">
+                                <img class="gallery__img" src="./images/portfolio/img5.jpg" alt="Проект Boxes" width="370">
+                                    <p class="gallery__text">
                                         Ресурс предлагает комплексные предложения с разным уровнем функционала и
                                         сервисов.
                                         Все это позволит посетителю получить
                                         исчерпывающие сведения о компании или частном лице.
                                     </p>
-                                </div>
                             </div>
-                            <div class="photo-border">
-                                <h2 class="portfolio-text">Проект Boxes</h2>
-                                <p class="portfolio-item">Приложение</p>
+                            <div class="gallery__card">
+                                <h2 class="gallery__name">Проект Boxes</h2>
+                                <p class="gallery__text-card">Приложение</p>
                             </div>
                         </a>
                     </li>
-                    <li class="photo-portfolio">
-                        <a href="/" class="project link">
-                            <div class="prodact-thumb">
-                                <img src="./images/portfolio/img6.jpg" alt="Inspiration has no Borders" width="370">
-                                <div class="product-action">
-                                    <p class="portfolio-text-action">
+                    <li class="gallery__item">
+                        <a href="/" class="gallery__link">
+                            <div class="gallery__overlay">
+                                <img class="gallery__img" src="./images/portfolio/img6.jpg" alt="Inspiration has no Borders" width="370">
+                                    <p class="gallery__text">
                                         Ресурс предлагает комплексные предложения с разным уровнем функционала и
                                         сервисов.
                                         Все это позволит посетителю получить
                                         исчерпывающие сведения о компании или частном лице.
                                     </p>
-                                </div>
                             </div>
-                            <div class="photo-border">
-                                <h2 class="portfolio-text">Inspiration has no Borders</h2>
-                                <p class="portfolio-item">Веб-сайт</p>
+                            <div class="gallery__card">
+                                <h2 class="gallery__name">Inspiration has no Borders</h2>
+                                <p class="gallery__text-card">Веб-сайт</p>
                             </div>
                         </a>
                     </li>
-                    <li class="photo-portfolio">
-                        <a href="/" class="project link">
-                            <div class="prodact-thumb">
-                                <img src="./images/portfolio/img7.jpg" alt="Издание Limited Edition" width="370">
-                                <div class="product-action">
-                                    <p class="portfolio-text-action">
+                    <li class="gallery__item">
+                        <a href="/" class="gallery__link">
+                            <div class="gallery__overlay">
+                                <img class="gallery__img" src="./images/portfolio/img7.jpg" alt="Издание Limited Edition" width="370">
+                                    <p class="gallery__text">
                                         Ресурс предлагает комплексные предложения с разным уровнем функционала и
                                         сервисов.
                                         Все это позволит посетителю получить
                                         исчерпывающие сведения о компании или частном лице.
                                     </p>
-                                </div>
                             </div>
-                            <div class="photo-border">
-                                <h2 class="portfolio-text">Издание Limited Edition</h2>
-                                <p class="portfolio-item">Дизайн</p>
+                            <div class="gallery__card">
+                                <h2 class="gallery__name">Издание Limited Edition</h2>
+                                <p class="gallery__text-card">Дизайн</p>
                             </div>
                         </a>
                     </li>
-                    <li class="photo-portfolio">
-                        <a href="/" class="project link">
-                            <div class="prodact-thumb">
-                                <img src="./images/portfolio/img8.jpg" alt="Проект LAB" width="370">
-                                <div class="product-action">
-                                    <p class="portfolio-text-action">
+                    <li class="gallery__item">
+                        <a href="/" class="gallery__link">
+                            <div class="gallery__overlay">
+                                <img class="gallery__img" src="./images/portfolio/img8.jpg" alt="Проект LAB" width="370">
+                                    <p class="gallery__text">
                                         Ресурс предлагает комплексные предложения с разным уровнем функционала и
                                         сервисов.
                                         Все это позволит посетителю получить
                                         исчерпывающие сведения о компании или частном лице.
                                     </p>
-                                </div>
                             </div>
-                            <div class="photo-border">
-                                <h2 class="portfolio-text">Проект LAB</h2>
-                                <p class="portfolio-item">Маркетинг</p>
+                            <div class="gallery__card">
+                                <h2 class="gallery__name">Проект LAB</h2>
+                                <p class="gallery__text-card">Маркетинг</p>
                             </div>
                         </a>
                     </li>
-                    <li class="photo-portfolio">
-                        <a href="/" class="project link">
-                            <div class="prodact-thumb">
-                                <img src="./images/portfolio/img9.jpg" alt="Growing Business" width="370">
-                                <div class="product-action">
-                                    <p class="portfolio-text-action">
+                    <li class="gallery__item">
+                        <a href="/" class="gallery__link">
+                            <div class="gallery__overlay">
+                                <img class="gallery__img" src="./images/portfolio/img9.jpg" alt="Growing Business" width="370">
+                                    <p class="gallery__text">
                                         Ресурс предлагает комплексные предложения с разным уровнем функционала и
                                         сервисов.
                                         Все это позволит посетителю получить
                                         исчерпывающие сведения о компании или частном лице.
                                     </p>
-                                </div>
                             </div>
-                            <div class="photo-border">
-                                <h2 class="portfolio-text">Growing Business</h2>
-                                <p class="portfolio-item">Приложение</p>
+                            <div class="gallery__card">
+                                <h2 class="gallery__name">Growing Business</h2>
+                                <p class="gallery__text-card">Приложение</p>
                             </div>
                         </a>
                     </li>
                 </ul>
             </div>
+        </section>
+            </div>
+
         </section>
     </main>
     <footer class="footer">
