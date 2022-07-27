@@ -30,24 +30,29 @@ line-height: 1.36;
 letter-spacing: 0.06em;
 color: var(--primary-background-color);
 }
-
-&__button {
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-padding: 10px 32px;
-min-width: 200px;
-min-height: 50px;
-border-radius: 4px ;
-font-family: 'Roboto';
-background-color: var(--accent-color);
-font-weight: 700;
-font-size: 16px;
-line-height: 1.88;
-letter-spacing: 0.06em;
-color: var(--third-text-color);
-margin: 0 auto;
-display: block;
-cursor: pointer;
-border: none;
-
 }
+
+.hero__button {
+    border: none;
+    border-radius: 4px;
+    padding: 10px 32px;
+    font-weight: 700;
+    font-size: 16px;
+    background: #2196F3;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    color: var(--third-text-color);
+    cursor: pointer;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero__button .link:hover {
+    background-color: var(--accent-color);
+    color: var(--third-text-color);
+}
+
+.hero__button:hover,
+.hero__button:focus {
+    background-color: #188ce8;
 }

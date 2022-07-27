@@ -1,18 +1,22 @@
-@import "./base/normalize";
-@import "./base/visually-hidden";
-
-
+@import "./utils/visually-hidden";
 @import "./utils/variables";
+@import "./utils/buttons";
 
+@import "./base/common";
+@import "./base/reset";
 
-@import "./component/logo";
-@import "./component/hero";
-@import "./component/benefits";
-@import "./component/experience";
-@import "./component/team";
-@import "./component/client";
-@import "./component/footer";
-@import "./component/header";
-@import "./component/radio";
-@import "./component/gallery";
-@import "./component/modal";
+@import "./componenet/backdrop";
+@import "./componenet/container";
+@import "./componenet/section";
+
+@import "./loyout/benefits";
+@import "./loyout/client";
+@import "./loyout/experience";
+@import "./loyout/footer";
+@import "./loyout/gallery";
+@import "./loyout/header";
+@import "./loyout/hero";
+@import "./loyout/logo";
+@import "./loyout/modal";
+@import "./loyout/radio";
+@import "./loyout/team"; 
