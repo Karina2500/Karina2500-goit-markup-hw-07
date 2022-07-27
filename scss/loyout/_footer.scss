@@ -19,10 +19,12 @@
     &__address {
     line-height: 1.71;
     color: var(--third-text-color); 
+    text-decoration: none;
 }
 
     &__mail {
     font-weight: 400;
+    text-decoration: none;
     line-height: 1.71;
     color: var(--fours-text-color);
     transition: color 250ms var(--timing-function);
@@ -35,6 +37,7 @@
 }
     &__tel {
     line-height: 1.71;
+    text-decoration: none;
     color: var(--fours-text-color);
     transition: color 250ms var(--timing-function);
 }
