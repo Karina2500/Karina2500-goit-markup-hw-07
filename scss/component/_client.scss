@@ -51,12 +51,14 @@ justify-content: center;
 border: 1px solid var(--accent-color);
 }
 &__icon {
+width: 170px;
+height: 92px;
 fill: var(--icon-primary-fill);
 transition: fill 250ms var(--timing-function);
 }
 
-&__link:hover .company__icon,
-&__link:focus .company__icon {   
+&__link:hover .client__icon,
+&__link:focus .client__icon {   
 fill: var(--accent-color);
 }
 

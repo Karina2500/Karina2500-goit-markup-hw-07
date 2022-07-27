@@ -87,6 +87,8 @@
 
 
     &__icon {
+    width: 20px;
+    height: 20px;
     fill: var(--icon-primary-fill);
     transition: fill 250ms var(--timing-function);
 }
